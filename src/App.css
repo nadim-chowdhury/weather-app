@@ -1,0 +1,68 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.search input {
+  padding: 10px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.search button {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.location h1{
+    font-size: 56px;
+}
+
+.top{
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp{
+    display: flex;
+    align-items: center;
+}
+
+.temp h3, .feels h3, .humidity h3, .wind h3 {
+    font-size: 36px;
+}
+
+.temp p, .feels p, .humidity p, .wind p{
+    font-size: 28px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feels, .humidity, .wind{
+    text-align: center;
+    margin: 20px;
+}
+
+.humidity {
+    margin: 0 20px;
+}
